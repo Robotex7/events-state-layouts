@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+div {
+  display: flex;
+}
+
+h2 {
+  margin: 0;
+  z-index: 1;
+}
+
+span {
+  z-index: 1;
+}
+
+.main_container {
+  flex-direction: column;
+  padding: 50px;
+  width: 100%;
+  gap: 10px;
+}
+
+.icons {
+  cursor: pointer;
+  align-self: flex-end;
+  margin-left: auto;
+  color: #726e6e;
+}
+
+.cards {
+  flex-wrap: wrap;
+  padding: 70px 70px 0 70px;
+  justify-content: center;
+}
+
+.items-list {
+  flex-direction: column;
+}
+
+.shopCard {
+  width: 250px;
+  height: 250px;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  background-color: #d6d4d4;
+  color: #000;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 170px;
+  margin-bottom: 30px;
+}
+
+.shopCard:nth-child(3n) {
+  margin-right: 0;
+}
+
+.price_container {
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 15px 20px 0 20px;
+  color: red;
+  margin-top: -55px;
+  z-index: 1;
+}
+
+.image {
+  width: 250px;
+  margin-top: -60px;
+  z-index: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(57, 56, 56, 0.5);
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  border: 1px red solid;
+  border-radius: 10px;
+  background-color: #ffffff00;
+  color: red;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #f17a7a83;
+  border: none;
+}
+
+.list_container {
+  height: 150px;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  align-items: center;
+  background-color: #f6f2f2cf;
+  color: #000;
+  justify-content: space-between;
+  padding: 0 15px 0 15px;
+  margin-bottom: 5px;
+}
+
+.image_list {
+  height: 100%;
+}
+
+.price {
+  color: red;
+}
